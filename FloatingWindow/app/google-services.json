@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "808453214986",
+    "project_id": "floatingwindow-8ec78",
+    "storage_bucket": "floatingwindow-8ec78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808453214986:android:35024ae33657d3a373e0f3",
+        "android_client_info": {
+          "package_name": "com.example.floatingwindow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808453214986-n61hj2f3ovv6r7tre81cvnfuupfitfpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Io85QcYU3dTrBK5pv-vwPvyuM40LSV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808453214986-n61hj2f3ovv6r7tre81cvnfuupfitfpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
