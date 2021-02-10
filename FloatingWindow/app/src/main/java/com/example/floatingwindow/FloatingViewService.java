@@ -183,7 +183,7 @@ public class FloatingViewService extends Service implements View.OnClickListener
                 //Cria um toat com a informação digitada e dps limpa o input
                 //tenho que descobrir como enviar a informação do input para a view principal, provavelmente  usando DAO
                 texto = mFloatingView.findViewById(R.id.input);
-                download(texto.getText().toString());
+                download(texto.getText().toString().toLowerCase());
 
 
                 break;
@@ -211,7 +211,7 @@ public class FloatingViewService extends Service implements View.OnClickListener
             public void onSuccess(Void aVoid) {
                 traducao = tw.getResult();
 
-                Traducao novo = new Traducao(texto.getText().toString(),tw.getResult(), 1);
+                Traducao novo = new Traducao(ingles,tw.getResult(), 1);
                 RoomTraducao save = Room
                         .databaseBuilder(context,FloatingDatabase.class,"traducao.db")
                         .allowMainThreadQueries()
